@@ -3,6 +3,7 @@
     --secundary-color: #1E2772;
     --text-color: #555555;
     --gray-bg: #EEEEEE;
+    --gray-secundary-bg:#F1F3F6
 }
 
 
@@ -10,6 +11,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 html, body{
