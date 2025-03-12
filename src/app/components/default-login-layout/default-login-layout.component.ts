@@ -10,6 +10,7 @@ export class DefaultLoginLayoutComponent {
 
   @Input() title: String = "";
   @Input() primaryButtonText: String = "";
+  @Input() disablePrimaryBtn: boolean = true;
   @Input() secundaryButtonText: String = "";
 
   @Output("submit") onSubmit = new EventEmitter();
